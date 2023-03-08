@@ -1,5 +1,5 @@
 /* Google-Font */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Great+Vibes&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Great+Vibes&family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
 html,
 body,
@@ -8,29 +8,29 @@ body,
 .content {
   height: 100%;
   width: 100%;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .app {
   display: flex;
-  position: relative;  
+  position: relative;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #e0e0e0;
 }
 
 /* Handle */
-::-webkit-scrollbar-thumb{
-  background: #888 ;
+::-webkit-scrollbar-thumb {
+  background: #888;
 }
 
 /* Handle on Hover */
-::-webkit-scrollbar-track:hover{
+::-webkit-scrollbar-track:hover {
   background: #555;
 }

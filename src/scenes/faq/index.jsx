@@ -16,80 +16,98 @@ const FAQ = () => {
       <Header title="FAQ" subtitle="Frequently Ask Question Page" />
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
 
       <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon/>} >
-            <Typography color={colors.greenAccent[500]} variant='h5' >
-                The Important Question.
-            </Typography>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          <Typography color={colors.greenAccent[500]} variant="h5">
+            The Important Question.
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
-            <Typography>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod delectus deserunt est magnam ipsum porro laboriosam. Provident totam, officiis maiores architecto voluptatem commodi doloremque fugiat.
-            </Typography>
+          <Typography>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+            delectus deserunt est magnam ipsum porro laboriosam. Provident
+            totam, officiis maiores architecto voluptatem commodi doloremque
+            fugiat.
+          </Typography>
         </AccordionDetails>
       </Accordion>
     </Box>

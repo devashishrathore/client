@@ -14,7 +14,8 @@ const initialValues = {
   address2: "",
 };
 
-const phoneRegExp =/^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
+const phoneRegExp =
+  /^((\+[1-9]{1,4}[ -]?)|(\([0-9]{2,3}\)[ -]?)|([0-9]{2,4})[ -]?)*?[0-9]{3,4}[ -]?[0-9]{3,4}$/;
 
 const userSchema = yup.object().shape({
   firstName: yup.string().required("required"),
@@ -29,14 +30,11 @@ const userSchema = yup.object().shape({
 });
 
 const Form = () => {
-  
   const isNonMobile = useMediaQuery("(min-width: 600px)");
 
   const handleFormSubmit = (values) => {
     console.log(values);
   };
-
- 
 
   return (
     <Box m="20px">
@@ -143,8 +141,8 @@ const Form = () => {
                 sx={{ gridColumn: "span 4" }}
               />
             </Box>
-            <Box display="flex" justifyContent="center" m='20px'>
-              <Button type="submit" color="secondary" variant='contained'>
+            <Box display="flex" justifyContent="center" m="20px">
+              <Button type="submit" color="secondary" variant="contained">
                 Create New User
               </Button>
             </Box>
